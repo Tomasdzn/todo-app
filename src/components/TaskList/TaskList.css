@@ -1,0 +1,7 @@
+.tasklist-container{
+  width: 460px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}

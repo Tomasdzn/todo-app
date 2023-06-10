@@ -1,0 +1,16 @@
+body {
+  background-color: #1E1E1E;
+  margin: 30px;
+}
+
+.container {
+  width: 500px;
+  height: fit-content;
+  background-color: #2d2d2d;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}

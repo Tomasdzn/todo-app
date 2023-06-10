@@ -1,0 +1,36 @@
+.task {
+  margin-top: 10px;
+  height: 3rem;
+  border-radius: 10px;
+  background-color: #0085ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #e0ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: opacity ease-in-out 0.5s;
+  overflow: hidden;
+}
+
+.completada {
+  text-decoration: line-through;
+  text-decoration-color: #1E1E1E;
+  text-decoration-thickness: 4px;
+  transition: ease-in-out 0.3s;
+}
+
+.task.text {
+  width: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.icono-delete {
+  margin-right: 10px;
+}
